@@ -20,6 +20,7 @@
 .container {
     margin: 0 auto;
     position: relative;
+    max-width: 1000px;
 }
 
 .logo {
@@ -47,8 +48,8 @@
 .rightBrand {
     background: #F1E4E6;
     display: flex;
-    justify-content: center;
     align-items: center;
+    padding-left: 64px;
 }
 
 .rightBrandPromo {
@@ -282,11 +283,14 @@
     color: #fff;
 }
 
+.service {
+    background: #222224;
+}
+
 
 .serviceType {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    background: #222224;
     gap: 64px;
     padding-top: 104px;
     padding-bottom: 104px;
@@ -328,7 +332,6 @@
 .subscribe .container {
     display: flex;
     justify-content: space-between;
-    max-width: 1140px;
 }
 
 .subscribeInfo {
@@ -445,6 +448,12 @@ footer .container {
     }
 }
 
+@media (max-width: 614px ) {
+    .rightBrandPromo div:first-child {
+        font-size: 39px;
+    }
+}
+
 @media (max-width: 599px ) {
     .market,
     .contacts {
@@ -453,6 +462,11 @@ footer .container {
     
     .leftBrand {
         display: none;
+    }
+
+    .rightBrand {
+        justify-content: center;
+        padding-left: 0;
     }
 
     .brandContent__container > div {
