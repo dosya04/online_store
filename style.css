@@ -47,8 +47,8 @@
 .rightBrand {
     background: #F1E4E6;
     display: flex;
-    justify-content: center;
     align-items: center;
+    padding-left: 64px;
 }
 
 .rightBrandPromo {
@@ -444,6 +444,7 @@ footer .container {
         flex-direction: column;
     }
 }
+
 
 @media (max-width: 599px ) {
     .market,
