@@ -1,0 +1,179 @@
+body {
+  background: #000;
+}
+
+.newArrivals {
+  background: #f8f3f4;
+  padding: 60px;
+}
+
+.newArrivals .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.newArrivals .newArrivals_header {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #f16d7f;
+}
+
+.newArrivals .newArrivals_way {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #636363;
+}
+
+.newArrivals .newArrivals_way span {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #f16d7f;
+}
+
+@media (max-width: 576px) {
+  .newArrivals .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.filters .filter {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.filters .filter img {
+  margin-top: -4px;
+  margin-left: 4px;
+}
+
+.filters .filter_settings {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6f6e6e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.filters .filter_settings img {
+  margin-left: 5px;
+}
+
+.filters .filter_settings p:not(:last-child) {
+  margin-right: 27px;
+}
+
+.filters .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 51px;
+}
+
+.cards .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  justify-items: center;
+}
+
+.cards .container .catalogCard {
+  background: #f8f8f8;
+  padding-bottom: 20px;
+}
+
+.cards .container .catalogCard img {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.cards .container .catalogCard .cardHeader,
+.cards .container .catalogCard .cardText,
+.cards .container .catalogCard .cardPrice {
+  margin-left: 16px;
+}
+
+.cards .container .catalogCard .cardText {
+  margin-top: 12px;
+  margin-bottom: 18px;
+}
+
+@media (max-width: 768px) {
+  .cards .container {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  .cards .container .catalogCard:last-child {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .cards .container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .cards .container .catalogCard:last-child {
+    display: block;
+  }
+}
+
+.pagination {
+  margin-top: 48px;
+}
+
+.pagination .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pagination .container .paginationBlock {
+  border: 1px solid #ebebeb;
+  padding: 14px 15px;
+}
+
+.pagination .container .paginationBlock a {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #c4c4c4;
+}
+
+.pagination .container .paginationBlock a:hover {
+  color: #ef5b70;
+}
+
+.pagination .container .paginationBlock a:nth-child(2) {
+  margin-left: 18px;
+}
+
+.pagination .container .paginationBlock a:nth-child(7) {
+  margin-right: 18px;
+}
+/*# sourceMappingURL=catalog.css.map */
