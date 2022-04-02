@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Lato;
+    font-family: Lato, sans-serif;
     font-style: normal;
 }
 
@@ -433,7 +433,7 @@ footer .container {
 
 /* Адаптив */
 
-@media (max-width: 768px ) {
+@media (max-width: 768px) {
     .priceCards {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -447,13 +447,13 @@ footer .container {
     }
 }
 
-@media (max-width: 614px ) {
+@media (max-width: 614px) {
     .rightBrandPromo div:first-child {
         font-size: 39px;
     }
 }
 
-@media (max-width: 599px ) {
+@media (max-width: 599px) {
     .market,
     .contacts {
         display: none;
