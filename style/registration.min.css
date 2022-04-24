@@ -1,0 +1,138 @@
+.registration {
+  padding: 60px 32px;
+  background: #f8f3f4;
+}
+.registration .container {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #f16d7f;
+}
+
+.infoClient .container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 64px;
+  padding-bottom: 96px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.infoClient .container .leftForm label {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+}
+.infoClient .container .leftForm .inputText {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #b1b1b1;
+  width: 320px;
+  padding: 13px 17px;
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .infoClient .container .leftForm .inputText {
+    width: 250px;
+  }
+}
+@media (max-width: 631px) {
+  .infoClient .container .leftForm .inputText {
+    width: 360px;
+  }
+}
+.infoClient .container .leftForm .gender {
+  margin-top: 30px;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.infoClient .container .leftForm .gender input {
+  margin-right: 10px;
+}
+.infoClient .container .leftForm .gender input:nth-child(2) {
+  margin-left: 20px;
+}
+.infoClient .container .leftForm .if_pass {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #b1b1b1;
+  margin-top: 16px;
+  margin-bottom: 40px;
+  max-width: 359px;
+}
+@media (max-width: 768px) {
+  .infoClient .container .leftForm .if_pass {
+    max-width: 250px;
+  }
+}
+.infoClient .container .leftForm button {
+  background: #f16d7f;
+  padding: 16px 30px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  border: none;
+}
+.infoClient .container .leftForm button i {
+  margin-left: 20px;
+}
+.infoClient .container .rightInfo .rightInfoHeader {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+.infoClient .container .rightInfo .rightInfoPgh {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+.infoClient .container .rightInfo .rightInfoCheck div {
+  margin-bottom: 16px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+@media (max-width: 768px) {
+  .infoClient .container .rightInfo .rightInfoHeader {
+    line-height: 19px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) and (max-width: 631px) {
+  .infoClient .container .rightInfo .rightInfoHeader {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .infoClient .container .rightInfo .rightInfoPgh {
+    font-size: 16px;
+    line-height: 19px;
+    max-width: 304px;
+  }
+}
+@media (max-width: 768px) {
+  .infoClient .container .rightInfo .rightInfoCheck div {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+@media (max-width: 631px) {
+  .infoClient .container {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=registration.min.css.map */
