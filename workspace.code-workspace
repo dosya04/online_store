@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "D:\\OpenServer\\domains\\site"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "project_online_store"
+	}
+}
